@@ -1,10 +1,1 @@
-language: python
-python:
-  - 3.6
-before_install:
-  - python --version
-  - pip install -U pip
-  - pip install -U pytest
-  - pip install -U pytest-cov
-script:
-  - pytest --cov=com.kuma com/kuma/test/
+pytest --cov=com.kuma com/kuma/test/
