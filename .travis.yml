@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 language: python
 python:
   - 3.8.5
@@ -9,6 +8,3 @@ before_install:
   - pip install -U pytest-cov
 script:
   - pytest --cov=com.kuma com/kuma/test/
-=======
-pytest --cov=com.kuma com/kuma/test/
->>>>>>> 14ec3eead5859649e53dc85abf9d45db209ef561

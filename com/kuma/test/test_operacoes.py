@@ -1,5 +1,5 @@
 import pytest
-from com.kuma.operacoes import operacoes
+from com.kuma.operacoes import Operacoes
 
 
 def test_soma():
